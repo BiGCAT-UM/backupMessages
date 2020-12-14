@@ -40,12 +40,10 @@
     This page indicates you got redirected because something is not working. Please read the instructions and pointers
     below about the status of our BiGCaT services.
     
-    <h2>13 Feburari 2020</h2>
+    <h2>14 December 2020</h2>
     <p>
       Because of a <a href="https://www.maastrichtuniversity.nl/news/update-cyber-attack-um">security incident</a>
-      at the Maastricht University, the BiGCaT servers are isolated from the outside world.
-      At the moment, it is unclear when these services will be restored. 
-      You can follow one or more of our Twitter accounts to receive direct updates.
+      at the Maastricht University, there have been some changes in the services provided by BiGCaT.
     </p>
     
     <h3>Working services:</h3>
@@ -54,32 +52,36 @@
     <p>The <a href="https://www.wikipathways.org/index.php/WikiPathways">WikiPathways website</a> is online and can be used. 
       <a href="https://www.wikipathways.org/index.php/Download_Pathways">Pathway data</a> can be downloaded as well .
     </p>
+          
+        
+    <h4>PathVisio.org</h4>
+    <p>The <a href="https://pathvisio.github.io/" PathVisio website </a> is reachable. 
+    You can <a href="https://github.com/PathVisio/pathvisio/releases"> download </a> PathVisio from our Github release page. 
+   Find all relevant mapping data on the <a href="https://bridgedb.github.io/data/gene_database/" BridgeDb data page </a> 
+    </p>
     
     <h4>BridgeDb webservice</h4>
-    <p><a href="http://webservice.bridgedb.org/">The BridgeDb webservices </a> are online and can be used. 
-      The Swagger/OpenAPI interactive documentation is also
-      <a href="https://bridgedb.org/swagger/">online again</a>.
+    <p><a href="https://bridgedb.github.io/swagger/">The BridgeDb webservices </a> are online and can be used, including Swagger/OpenAPI interactive documentation.
+    </p>
+  
+    <h4>WikiPathways SPARQL endpoint</h4>
+    <p>The WikiPathways SPARQL endpoint is available (<a href="http://sparql.wikipathways.org/">sparql.wikipathways.org</a>). 
+      For access through command line or coding environments, add '/sparql' to the URL. 
+    Also, the RDF data can still be downloaded at <a href="http://data.wikipathways.org/20191210/rdf/">data.wikipathways.org</a> and loaded in a local Virtuoso or Blazegraph installation.</a>
+    </p>
+  
+    <h4>BridgeDb.org website</h4>
+  <p><a href="https://bridgedb.github.io/"The BridgeDb website </a> has been migrated to Github. 
+    The individual mapping files can be found at <a href="https://bridgedb.github.io/data/gene_database/" our data page </a> .
+    The BridgeDb webservice includes these latest files, including Gene+Protein, Metabolite and Interaction mappings.
     </p>
     
     <h3>NOT Working services:</h3>
-    
-    <h4>PathVisio.org</h4>
-    <p>The PathVisio website is unreachable, along with the data.pathvisio.org website hosting the BridgeDb identifier
-    mapping databases. You can <a href="https://github.com/PathVisio/pathvisio/releases"> download </a> PathVisio from our Github release page. 
-    For <a href="https://doi.org/10.6084/m9.figshare.10048508"> metabolite mappings </a>, Figshare has an archived version of a recent mapping file.
-    This is also the case for <a href="https://doi.org/10.6084/m9.figshare.8167565"> interactions mappings</a> .
-    The BridgeDb webservice includes these latest files, as well as Gene+Protein mappings.
-    </p>
-    <h4>WikiPathways SPARQL endpoint</h4>
-    <p>The WikiPathways SPARQL endpoint is available (<a href="http://sparql.wikipathways.org/">sparql.wikipathways.org</a>). This is a temporary solution, hosted by OpenRiskNet. For access through command line or coding environments, add '/sparql' to the URL. 
-    Also, the RDF data can still be downloaded at <a href="http://data.wikipathways.org/20191210/rdf/">data.wikipathways.org</a> and loaded in a local Virtuoso or Blazegraph installation.</a>
-    </p>
-    <h4>BridgeDb.org website</h4>
-    <p>The BridgeDb website is being migrated, but this will take time. Along with the data.bridgedb.org website hosting the BridgeDb identifier
-    mapping databases. For <a href="https://doi.org/10.6084/m9.figshare.10048508"> metabolite mappings </a>, Figshare has an archived version of a recent mapping file.
-    This is also the case for <a href="https://doi.org/10.6084/m9.figshare.8167565"> interactions mappings</a>. 
-    The BridgeDb webservice includes these latest files, as well as Gene+Protein mappings.
-    </p>
+  
+  <h4> data.pathvisio.org website </h4>
+
+  <p> Data is available from the <a href="https://bridgedb.github.io/data/gene_database/" BridgeDb data page </a>  itself, our through the <a href="https://bridgedb.github.io/swagger/" webservice of BridgeDb </a>. </p>  
+  
     <h4>ArrayAnalysis.org website and service</h4>
     <p>The ArrayAnalysis.org website is unreachable. Results from analysis started shortly before the attack will be kept on the server.
     </p>
